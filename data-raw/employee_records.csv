@@ -1,0 +1,4 @@
+EmployeeID,Age,Department,JobSatisfaction,MonthlyIncome,Attrition
+1,30,Sales,3,2500,No
+2,25,Research and Development,1,1800,Yes
+3,35,Human Resources,4,3500,No
