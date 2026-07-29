@@ -1,0 +1,20 @@
+# DAX Expressions
+
+## Attrition Count
+
+```DAX
+Attrition Count =
+CALCULATE(
+    COUNTROWS(Employee),
+    Employee[Attrition] = "Yes"
+)
+Total Employees =
+COUNTROWS(Employee)
+Attrition Rate =
+DIVIDE(
+    [Attrition Count],
+    [Total Employees],
+    0
+)
+Average Years at Company =
+AVERAGE(Employee[YearsAtCompany])
