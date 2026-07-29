@@ -1,0 +1,11 @@
+{
+  "name": "Enterprise Dark Theme",
+  "dataColors": [
+    "#1F4E78",
+    "#70AD47",
+    "#ED7D31",
+    "#A5A5A5"
+  ],
+  "background": "#1F1F1F",
+  "foreground": "#FFFFFF"
+}
