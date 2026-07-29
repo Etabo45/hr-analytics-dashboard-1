@@ -1,0 +1,21 @@
+# Temporary files
+*.tmp
+*.temp
+
+# Power BI temporary files
+*.pbit
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Credentials
+*.key
+*.pem
